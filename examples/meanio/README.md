@@ -64,6 +64,7 @@ meanio-mongodb-controller              meanio-mongodb          mongo:2.6.8      
 
 Once that's up you can list the pods in the cluster, to verify that the MongoDB server is running:
 
+
 ```shell
 $ kubectl get pods
 ```
@@ -77,6 +78,7 @@ meanio-mongodb-controller-nyxxv              10.244.0.11         meanio-mongodb 
 
 If you ssh to that machine, you can run `docker ps` to see the actual pod:
 
+```shell
 me@workstation$ gcloud compute ssh kubernetes-minion-yxea
 
 me@kubernetes-minion-yxea:~$ sudo docker ps
