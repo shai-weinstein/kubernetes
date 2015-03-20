@@ -194,7 +194,7 @@ meanio-mongodb-controller              meanio-mongodb          mongo:2.6.8      
 
 ```
 
-Once that's up (it may take ten to thirty seconds to create the pods) you can list the pods in the cluster, to verify that the mongodb and meanio are running:
+Once that's up (it may take a few minutes to create the pod) you can list the pods, to verify that the mongodb and meanio are running:
 
 ```shell
 $ kubectl get pods
